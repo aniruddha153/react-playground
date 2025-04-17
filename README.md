@@ -1,6 +1,15 @@
-# React + TypeScript + Vite + react-router
+# React + TypeScript + Vite + React Router
 
-This project is a Vite-powered React starter app using TypeScript and the latest version of react-router (not react-router-dom).
+This project is a Vite-powered React starter app using TypeScript and the latest version of react-router v7 (not react-router-dom).
+
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+---
 
 ## Getting Started
 
@@ -18,12 +27,6 @@ This project is a Vite-powered React starter app using TypeScript and the latest
 Routing is set up using `react-router`'s data APIs (not react-router-dom). See `src/main.tsx` for the router configuration.
 
 ---
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-- [Vite Documentation](https://vitejs.dev/)
-- [React Documentation](https://react.dev/)
-- [react-router Documentation](https://reactrouter.com/en/main)
 
 ## Expanding the ESLint configuration
 
@@ -70,3 +73,7 @@ export default tseslint.config({
   },
 })
 ```
+## Official Docs
+- [Vite Documentation](https://vitejs.dev/)
+- [React Documentation](https://react.dev/)
+- [react-router Documentation](https://reactrouter.com/en/main)
